@@ -1,0 +1,53 @@
+1. Image hash.
+Hint: Data Source à Select Image à File Metadata
+2. Operating system
+Hint: Data Artifacts à OS Information à Select Software à Program Name
+3. Installation date
+Hint: Data Artifacts à OS Information à Select Software à Date / Time
+4. Registered owner
+Hint: Data Artifacts à OS Information à Select Software à Owner
+5. Computer Account Name.
+Hint: OS Accounts à under Login Name
+6. Last recorded computer shutdown date/time.
+Hint: Data Source à select Image à vol 2 à windows à system32 à config à check
+SysEvent.evt file
+7. Accounts are recorded (total number).
+Hint: OS Accounts
+8. Domain name used for the last web search
+Hint: Data Artifacts à Web Search à select last search
+9. Program used for the last web search
+Hint: Data Artifacts à Web Search à select last search
+10. Programs that may be used to communicate with third person.
+Hint: Data Artifacts à Installed Programs
+11. Executable files are in the recycle bin.
+Hint: Program Files à Recycler
+12. Export Dc3.docx file from Recycler to Host computer and analyse the content.
+Hint: Data Source à Select Image à Vol 2 à Recycler
+=====
+1. Time Zone
+Hint: Windows à System32à Config à System à ControlSet001 à Control à
+TimeZoneInformation à StandardName
+2. Information about Operating System
+Hint: Windows à System32à Config à Software à Microsoft à Windows NT à
+CurrentVersion
+3. Find Computer Name
+Hint: Windows à System32à Config à System à ControlSet001 à Control à
+ComputerName à ComputerName
+4. Last recorded computer shutdown time
+Hint: Windows à System32à Config à Software à Microsoft à
+Windows NT à CurrentVersion à Prefetcherà ExitTime
+5. Last user logon to the computer
+Hint: Windows à System32à Config à Software à Microsoft à
+Windows NT à CurrentVersion à Winlogonà DefaultserName
+6. Network cards used by this computer
+Hint: Windows à System32à Config à Software à Microsoft à Windows NT à
+CurrentVersion à NetworkCards
+7. IP Address and details of the computer
+Hint: Windows à System32à Config à System à ControlSet001 à Services à Tcpip à
+Parameters à Interfaces
+8. List all the users of the computer
+Hint: Windows à System32à Config à SAM à Domains à Account à Users à Names
+9. Email clients used by the user
+Hint: Windows à System32à Config à Software à Clients à Mail
+10. Mounted devices
+Hint: Windows à System32à Config à System à MountedDevices
